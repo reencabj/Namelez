@@ -79,7 +79,11 @@
       background:rgba(255,255,255,.04);
       transition:transform .12s ease, background .12s ease, border-color .12s ease;
     }
-    .yy-icon-btn:hover{ transform:translateY(-1px); background:rgba(158,140,237,.12); border-color:#9e8ced; }
+    .yy-icon-btn:hover{
+      transform: translateY(-1px);
+      background: rgba(171,12,12,.12); /* #AB0C0C con alpha */
+      border-color: #AB0C0C;
+    }
     .yy-icon{ width:18px;height:18px; display:block; }
   </style>
 
@@ -90,8 +94,10 @@
       theme: {
         extend: {
           colors: {
-            yakuza: '#9e8ced',
-            'yakuza-light': '#bfaeff'
+            // Base roja
+            yakuza: '#AB0C0C',         // principal
+            'yakuza-light': '#C82828', // acento claro (hover, pill)
+            'yakuza-dark':  '#7F0909', // acento oscuro (borders intensos)
           }
         }
       }
@@ -142,7 +148,7 @@
         <div class="flex-1 min-w-[280px]">
           <label class="block text-sm text-neutral-300 mb-1">Buscar personaje</label>
           <input id="q" type="search" placeholder="Ej: Mikaro, Yoshi, etc."
-                 class="w-full h-10 rounded-xl bg-neutral-900 border border-neutral-800 px-3 outline-none focus:ring-2 focus:ring-emerald-500" />
+                 class="w-full h-10 rounded-xl bg-neutral-900 border border-neutral-800 px-3 outline-none focus:ring-2 focus:ring-[#AB0C0C]" />
         </div>
         <div class="flex flex-wrap lg:flex-nowrap items-end gap-3 shrink-0">
           <div class="w-56">
@@ -371,7 +377,7 @@
                     data-slug="${p.kick}">
               <img src="${p.foto || 'img/logo.png'}" class="w-8 h-8 rounded-full object-cover" alt="" loading="lazy" decoding="async">
               <span class="text-sm">${p.nombre}</span>
-              ${sel ? '<span class="text-emerald-400 text-xs">●</span>' : ''}
+              ${sel ? '<span class="text-[#C82828] text-xs">●</span>' : ''}
             </button>
           `;
         }).join('');
@@ -486,7 +492,7 @@
 
     // ===== Tabs =====
     const VIEWS = ['personajes','galeria','videos','lore','multikick'];
-    const TAB_ACTIVE   = 'tab px-3 py-2 rounded-xl border border-yakuza bg-yakuza/20 hover:bg-yakuza/30';
+    const TAB_ACTIVE   = 'tab px-3 py-2 rounded-xl border border-yakuza bg-yakuza/20 hover:bg-yakuza/40';
     const TAB_INACTIVE = 'tab px-3 py-2 rounded-xl border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800';
 
     function styleTabs(activeId) {
@@ -976,6 +982,7 @@
   </script>
 </body>
 </html>
+
 
 
 

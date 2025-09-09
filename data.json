@@ -39,7 +39,7 @@
   {
     "nombre": "Anthony Foster",
     "ooc": "Exequiel",
-    "alias": "Foster",
+    "alias": "Sniperfoster",
     "rango": 1,
     "kick": "exequiel",
     "foto": "img/foster.jpg",
@@ -99,33 +99,33 @@
     ]
   },
   {
-    "nombre": "Keisuke Kudo",
-    "ooc": "Nohands",
-    "alias": "Kei",
+    "nombre": "Thiago Dent",
+    "ooc": "Jeyci",
+    "alias": "Thiagod",
     "rango": 2,
-    "kick": "nohands",
-    "foto": "img/kei.jpg",
+    "kick": "jeyciiv",
+    "foto": "img/thiago.jpg",
     "links": [
-      { "label": "Instagram", "href": "https://www.instagram.com/mattvxvx" },
-      { "label": "Twitter", "href": "https://x.com/mattvxvx" }
     ]
   },
   {
-    "nombre": "Alejandro Hopkins",
-    "ooc": "El Narcovich",
-    "alias": "Xocas",
+    "nombre": "Drake Dent",
+    "ooc": "PeppAlex",
+    "alias": "Drake",
     "rango": 2,
-    "kick": "narcovich",
-    "foto": "img/xocas.jpg",
+    "kick": "peppalex",
+    "foto": "img/drake.jpg",
     "links": [
-      { "label": "Instagram", "href": "https://www.instagram.com/el.narcovich/" },
-      { "label": "Twitter", "href": "https://x.com/ElNarcovich" }
+      { "label": "Instagram", "href": "https://instagram.com/peppalex_" },
+      { "label": "Twitter", "href": "https://twitter.com/PeppAlexx" },
+      { "label": "TikTok", "href": "https://tiktok.com/@peppalex" },
+      { "label": "YouTube", "href": "https://youtube.com/channel/UC8o_-nhv_6zfbetrJUT1t5g" }
     ]
   },
   {
-    "nombre": "Kowa Vidal",
-    "ooc": "Ferchu",
-    "alias": "Kowa",
+    "nombre": "Galo Bonganov",
+    "ooc": "Lilto",
+    "alias": "Timoti",
     "rango": 2,
     "kick": "ferchucabj",
     "foto": "img/kowa.jpg",
@@ -385,6 +385,7 @@
     ]
   }
 ]
+
 
 
 

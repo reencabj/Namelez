@@ -40,7 +40,7 @@
     "nombre": "Anthony Foster",
     "ooc": "Exequiel",
     "alias": "Sniperfoster",
-    "rango": 1,
+    "rango": 2,
     "kick": "exequiel",
     "foto": "img/foster.jpg",
       "links": [
@@ -52,7 +52,7 @@
     "nombre": "Rasheed Ross",
     "ooc": "SantiagoOG",
     "alias": "Reshade",
-    "rango": 1,
+    "rango": 2,
     "kick": "ogsantigao",
     "foto": "img/rasheed.jpg",
     "links": [
@@ -67,7 +67,7 @@
     "nombre": "Kane Dshawn",
     "ooc": "Zerok",
     "alias": "Kane",
-    "rango": 1,
+    "rango": 2,
     "kick": "zerok",
     "foto": "img/kane.jpg",
     "links": [
@@ -79,7 +79,7 @@
     "nombre": "Nero Myers",
     "ooc": "Yensi",
     "alias": "Nero",
-    "rango": 1,
+    "rango": 2,
     "kick": "yxnsi",
     "foto": "img/nero.jpg",
     "links": [
@@ -91,7 +91,7 @@
     "nombre": "Ciro Gutierrez",
     "ooc": "Tato",
     "alias": "Ciro",
-    "rango": 1,
+    "rango": 2,
     "kick": "tatog2",
     "foto": "img/ciro.jpg",
     "links": [
@@ -128,7 +128,7 @@
     "alias": "Timoti",
     "rango": 2,
     "kick": "ferchucabj",
-    "foto": "img/kowa.jpg",
+    "foto": "img/galo.jpg",
     "links": [
     ]
   }
@@ -234,15 +234,15 @@
     ]
   },
   {
-    "nombre": "Travis Hardmann",
-    "ooc": "Feleen",
-    "alias": "Travieso",
-    "rango": 2,
-    "kick": "feleen",
-    "foto": "img/Travis.jpg",
+    "nombre": "Nick Rowland",
+    "ooc": "Pipi",
+    "alias": "Navarrete",
+    "rango": 1,
+    "kick": "bressser",
+    "foto": "img/nick.jpg",
     "links": [
-      { "label": "Instagram", "href": "https://instagram.com/Sergio_Casanueva" },
-      { "label": "Twitter", "href": "https://twitter.com/Sergio_Casanew" }
+      { "label": "Instagram", "href": "https://www.instagram.com/santinobresser/" },
+      { "label": "Twitter", "href": "https://twitter.com/sbresserr" }
     ]
   },
   {
@@ -270,6 +270,7 @@
     ]
   }
 ]
+
 
 
 

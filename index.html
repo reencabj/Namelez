@@ -279,7 +279,7 @@
   <!-- ============ APP SCRIPT ============ -->
   <script>
     // ===== Utilidades =====
-    const RANKS = { "1": "Jefe", "2": "Yakuza", "3": "Shatei" };
+    const RANKS = { "1": "Jefe", "2": "Namelez", "3": "Camello" };
     const rankLabel = v => RANKS[String(v)] ?? "-";
     const norm = s => (s || "").toString().normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
     const debounce = (fn, ms=200) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
@@ -976,6 +976,7 @@
   </script>
 </body>
 </html>
+
 
 
 

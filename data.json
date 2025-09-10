@@ -258,18 +258,29 @@
     ]
   },
   {
-    "nombre": "",
-    "ooc": "",
-    "alias": "",
+    "nombre": "Tomas Dent",
+    "ooc": "Gangi",
+    "alias": "Gangi",
     "rango": 2,
-    "kick": "",
-    "foto": "",
+    "kick": "Gangii",
+    "foto": "img/gangi.jpg",
     "links": [
       { "label": "Instagram", "href": "https://instagram.com/vainillitaaa" },
       { "label": "TikTok", "href": "https://tiktok.com/@Vainillita90" }
     ]
+  },
+  {
+    "nombre": "Kanye Natanael Watkins",
+    "ooc": "Magma",
+    "alias": "Nata",
+    "rango": 2,
+    "kick": "MagmaParaLasNenas",
+    "foto": "img/nata.jpg",
+    "links": [
+    ]
   }
 ]
+
 
 
 

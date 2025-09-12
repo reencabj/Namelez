@@ -133,11 +133,11 @@
   <!-- Tabs -->
   <nav class="max-w-6xl mx-auto px-4">
     <div class="flex flex-wrap gap-2 pb-3">
-      <button class="tab px-3 py-2 rounded-xl border border-yakuza bg-yakuza/20 hover:bg-yakuza/30" data-view="personajes">Personajes</button>
-      <button class="tab px-3 py-2 rounded-xl border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800" data-view="galeria">Galería</button>
-      <button class="tab px-3 py-2 rounded-xl border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800" data-view="videos">Videos</button>
-      <button class="tab px-3 py-2 rounded-xl border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800" data-view="lore">Lore</button>
-      <button class="tab px-3 py-2 rounded-xl border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800" data-view="multikick">MultiKick</button>
+      <button class="tab px-3 py-2 rounded-none border border-yakuza bg-yakuza/20 hover:bg-yakuza/30" data-view="personajes">Personajes</button>
+      <button class="tab px-3 py-2 rounded-none border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800" data-view="galeria">Galería</button>
+      <button class="tab px-3 py-2 rounded-none border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800" data-view="videos">Videos</button>
+      <button class="tab px-3 py-2 rounded-none border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800" data-view="lore">Lore</button>
+      <button class="tab px-3 py-2 rounded-none border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800" data-view="multikick">MultiKick</button>
     </div>
   </nav>
 
@@ -148,12 +148,12 @@
         <div class="flex-1 min-w-[280px]">
           <label class="block text-sm text-neutral-300 mb-1">Buscar personaje</label>
           <input id="q" type="search" placeholder="Ej: Braden, Noah, Kane..."
-                 class="w-full h-10 rounded-xl bg-neutral-900 border border-neutral-800 px-3 outline-none focus:ring-2 focus:ring-[#AB0C0C]" />
+                 class="w-full h-10 rounded-none bg-neutral-900 border border-neutral-800 px-3 outline-none focus:ring-2 focus:ring-[#AB0C0C]" />
         </div>
         <div class="flex flex-wrap lg:flex-nowrap items-end gap-3 shrink-0">
           <div class="w-56">
             <label class="block text-sm text-neutral-300 mb-1">Ordenar</label>
-            <select id="sort" class="w-full h-10 rounded-xl bg-neutral-900 border border-neutral-800 px-3">
+            <select id="sort" class="w-full h-10 rounded-none bg-neutral-900 border border-neutral-800 px-3">
               <option value="rango-desc">Ordenar por rango (↓)</option>
               <option value="rango-asc">Ordenar por rango (↑)</option>
               <option value="nombre-asc">Nombre (A→Z)</option>
@@ -163,7 +163,7 @@
           </div>
           <div class="w-56">
             <label class="block text-sm text-neutral-300 mb-1">Rango</label>
-            <select id="rango" class="w-full h-10 rounded-xl bg-neutral-900 border border-neutral-800 px-3">
+            <select id="rango" class="w-full h-10 rounded-none bg-neutral-900 border border-neutral-800 px-3">
               <option value="">Todos</option>
               <option value="1">1 — Jefe</option>
               <option value="2">2 — Namelez</option>
@@ -173,7 +173,7 @@
           <div class="w-44">
             <label class="block text-sm text-neutral-300 mb-1 invisible">Acción</label>
             <button id="clear"
-                    class="w-full h-10 inline-flex items-center justify-center rounded-xl
+                    class="w-full h-10 inline-flex items-center justify-center rounded-none
                            bg-neutral-800 hover:bg-neutral-700 border border-neutral-700 px-3 text-sm">
               Limpiar filtros
             </button>
@@ -214,15 +214,15 @@
 
     <div class="flex items-center gap-2 mb-4">
       <button id="mk-select-all"
-        class="px-3 py-2 rounded-xl text-sm border border-yakuza bg-yakuza/20 hover:bg-yakuza/30">
+        class="px-3 py-2 rounded-none text-sm border border-yakuza bg-yakuza/20 hover:bg-yakuza/30">
         Mostrar todos
       </button>
       <button id="mk-clear"
-        class="px-3 py-2 rounded-xl text-sm border border-neutral-700 bg-neutral-800/70 hover:bg-neutral-700">
+        class="px-3 py-2 rounded-none text-sm border border-neutral-700 bg-neutral-800/70 hover:bg-neutral-700">
         Limpiar selección
       </button>
       <button id="mk-full"
-        class="px-3 py-2 rounded-xl text-sm border border-neutral-700 bg-neutral-800/70 hover:bg-neutral-700">
+        class="px-3 py-2 rounded-none text-sm border border-neutral-700 bg-neutral-800/70 hover:bg-neutral-700">
         Pantalla completa
       </button>
       <span id="mk-count" class="text-sm text-neutral-400 ml-2">0 seleccionados</span>
@@ -254,7 +254,7 @@
 <footer class="max-w-6xl mx-auto px-4 pb-10 text-center">
   <a href="https://x.com/i/communities/1866800765051781584"
      target="_blank" rel="noreferrer"
-     class="inline-block px-6 py-3 rounded-xl text-lg font-semibold text-white
+     class="inline-block px-6 py-3 rounded-none text-lg font-semibold text-white
             bg-yakuza hover:bg-yakuza-light border border-yakuza
             shadow-md hover:shadow-lg transition">
     👹 Unite a la Comunidad
@@ -268,7 +268,7 @@
         Cerrar ✕
       </button>
       <div class="rounded-2xl overflow-hidden bg-neutral-900 border border-neutral-800 p-2">
-        <img id="yy-img" src="" alt="" class="w-full h-auto object-contain rounded-xl" />
+        <img id="yy-img" src="" alt="" class="w-full h-auto object-contain rounded-none" />
         <div class="flex items-center justify-between gap-2 px-2 py-2 text-sm text-neutral-300">
           <div id="yy-caption" class="truncate"></div>
           <div class="flex items-center gap-2">
@@ -373,7 +373,7 @@
           const cls = sel ? 'border-yakuza bg-yakuza/20'
                           : 'border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800';
           return `
-            <button class="mk-item inline-flex items-center gap-2 px-3 py-2 rounded-xl border ${cls}"
+            <button class="mk-item inline-flex items-center gap-2 px-3 py-2 rounded-none border ${cls}"
                     data-slug="${p.kick}">
               <img src="${p.foto || 'img/logo.png'}" class="w-8 h-8 rounded-full object-cover" alt="" loading="lazy" decoding="async">
               <span class="text-sm">${p.nombre}</span>
@@ -492,8 +492,8 @@
 
     // ===== Tabs =====
     const VIEWS = ['personajes','galeria','videos','lore','multikick'];
-    const TAB_ACTIVE   = 'tab px-3 py-2 rounded-xl border border-yakuza bg-yakuza/20 hover:bg-yakuza/40';
-    const TAB_INACTIVE = 'tab px-3 py-2 rounded-xl border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800';
+    const TAB_ACTIVE   = 'tab px-3 py-2 rounded-none border border-yakuza bg-yakuza/20 hover:bg-yakuza/40';
+    const TAB_INACTIVE = 'tab px-3 py-2 rounded-none border border-neutral-800 bg-neutral-900/70 hover:bg-neutral-800';
 
     function styleTabs(activeId) {
       document.querySelectorAll('.tab[data-view]').forEach(btn => {
@@ -982,6 +982,7 @@
   </script>
 </body>
 </html>
+
 
 
 

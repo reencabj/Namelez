@@ -2,21 +2,29 @@ name: build-live-json
 
 on:
   schedule:
-    - cron: "*/10 * * * *"       # cada 10 min
+    - cron: "*/10 * * * *"       # cada 10 min (UTC)
   workflow_dispatch:              # ejecutarlo a mano
   push:
     paths-ignore:
       - "live.json"
       - "videos.json"
 
+# Evita que dos ejecuciones se pisen entre sí
+concurrency:
+  group: build-live-json
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # necesario para pull --rebase
 
       - name: Setup Node 20
         uses: actions/setup-node@v4
@@ -40,10 +48,28 @@ jobs:
           echo "Preview videos.json:"
           head -n 50 videos.json || true
 
+      # Fuerza un cambio mínimo útil y deja timestamp en ambos JSON
+      - name: Inject updatedAt (force change)
+        run: |
+          set -e
+          TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          node -e "const fs=require('fs');let j=JSON.parse(fs.readFileSync('live.json','utf8'));j.updatedAt='${TS}';fs.writeFileSync('live.json',JSON.stringify(j,null,2));"
+          node -e "const fs=require('fs');let j=JSON.parse(fs.readFileSync('videos.json','utf8'));j.updatedAt='${TS}';fs.writeFileSync('videos.json',JSON.stringify(j,null,2));"
+
+      # Muestra si realmente hubo cambios
+      - name: Debug diff & context
+        run: |
+          echo "EVENT: $GITHUB_EVENT_NAME"
+          date -u +"UTC now: %Y-%m-%dT%H:%M:%SZ"
+          git status --porcelain || true
+          git diff --name-only || true
+
       - name: Commit & push data files
         run: |
+          set -e
           git config user.name  "pages-bot"
           git config user.email "pages-bot@users.noreply.github.com"
           git add live.json videos.json
-          git commit -m "chore: update live & videos [skip ci]" || echo "sin cambios"
-          git push || echo "push sin cambios"
+          git commit -m "chore: update live & videos [skip ci]" || { echo "Sin cambios, no commit"; exit 0; }
+          git pull --rebase
+          git push

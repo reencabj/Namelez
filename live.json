@@ -1,29 +1,11 @@
 [
   {
-    "slug": "ciro",
-    "platform": "kick",
-    "live": false,
-    "viewers": 0,
-    "thumb": null,
-    "updatedAt": "2026-04-01T04:20:02.172Z",
-    "error": "HTTP 403"
-  },
-  {
     "slug": "exequiel",
     "platform": "kick",
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:02.175Z",
-    "error": "HTTP 403"
-  },
-  {
-    "slug": "ogsantiago",
-    "platform": "kick",
-    "live": false,
-    "viewers": 0,
-    "thumb": null,
-    "updatedAt": "2026-04-01T04:20:02.176Z",
+    "updatedAt": "2026-04-01T06:07:26.084Z",
     "error": "HTTP 403"
   },
   {
@@ -32,7 +14,16 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:02.180Z",
+    "updatedAt": "2026-04-01T06:07:26.088Z",
+    "error": "HTTP 403"
+  },
+  {
+    "slug": "ogsantiago",
+    "platform": "kick",
+    "live": false,
+    "viewers": 0,
+    "thumb": null,
+    "updatedAt": "2026-04-01T06:07:26.089Z",
     "error": "HTTP 403"
   },
   {
@@ -41,7 +32,16 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:02.181Z",
+    "updatedAt": "2026-04-01T06:07:26.091Z",
+    "error": "HTTP 403"
+  },
+  {
+    "slug": "ciro",
+    "platform": "kick",
+    "live": false,
+    "viewers": 0,
+    "thumb": null,
+    "updatedAt": "2026-04-01T06:07:26.094Z",
     "error": "HTTP 403"
   },
   {
@@ -50,16 +50,7 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:03.996Z",
-    "error": "HTTP 403"
-  },
-  {
-    "slug": "jeyciiv",
-    "platform": "kick",
-    "live": false,
-    "viewers": 0,
-    "thumb": null,
-    "updatedAt": "2026-04-01T04:20:04.000Z",
+    "updatedAt": "2026-04-01T06:07:27.914Z",
     "error": "HTTP 403"
   },
   {
@@ -68,16 +59,7 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:04.002Z",
-    "error": "HTTP 403"
-  },
-  {
-    "slug": "zerok",
-    "platform": "kick",
-    "live": false,
-    "viewers": 0,
-    "thumb": null,
-    "updatedAt": "2026-04-01T04:20:04.004Z",
+    "updatedAt": "2026-04-01T06:07:27.916Z",
     "error": "HTTP 403"
   },
   {
@@ -86,7 +68,25 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:04.009Z",
+    "updatedAt": "2026-04-01T06:07:27.921Z",
+    "error": "HTTP 403"
+  },
+  {
+    "slug": "zerok",
+    "platform": "kick",
+    "live": false,
+    "viewers": 0,
+    "thumb": null,
+    "updatedAt": "2026-04-01T06:07:27.923Z",
+    "error": "HTTP 403"
+  },
+  {
+    "slug": "jeyciiv",
+    "platform": "kick",
+    "live": false,
+    "viewers": 0,
+    "thumb": null,
+    "updatedAt": "2026-04-01T06:07:27.924Z",
     "error": "HTTP 403"
   },
   {
@@ -95,7 +95,7 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:05.814Z",
+    "updatedAt": "2026-04-01T06:07:29.737Z",
     "error": "HTTP 403"
   },
   {
@@ -104,7 +104,7 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:05.817Z",
+    "updatedAt": "2026-04-01T06:07:29.738Z",
     "error": "HTTP 403"
   },
   {
@@ -113,16 +113,7 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:05.819Z",
-    "error": "HTTP 403"
-  },
-  {
-    "slug": "joeelvzla",
-    "platform": "kick",
-    "live": false,
-    "viewers": 0,
-    "thumb": null,
-    "updatedAt": "2026-04-01T04:20:05.821Z",
+    "updatedAt": "2026-04-01T06:07:29.739Z",
     "error": "HTTP 403"
   },
   {
@@ -131,7 +122,16 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:05.826Z",
+    "updatedAt": "2026-04-01T06:07:29.741Z",
+    "error": "HTTP 403"
+  },
+  {
+    "slug": "joeelvzla",
+    "platform": "kick",
+    "live": false,
+    "viewers": 0,
+    "thumb": null,
+    "updatedAt": "2026-04-01T06:07:29.746Z",
     "error": "HTTP 403"
   },
   {
@@ -140,7 +140,7 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:07.633Z",
+    "updatedAt": "2026-04-01T06:07:31.558Z",
     "error": "HTTP 403"
   },
   {
@@ -149,16 +149,7 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:07.634Z",
-    "error": "HTTP 403"
-  },
-  {
-    "slug": "bressser",
-    "platform": "kick",
-    "live": false,
-    "viewers": 0,
-    "thumb": null,
-    "updatedAt": "2026-04-01T04:20:07.637Z",
+    "updatedAt": "2026-04-01T06:07:31.560Z",
     "error": "HTTP 403"
   },
   {
@@ -167,7 +158,16 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:07.639Z",
+    "updatedAt": "2026-04-01T06:07:31.560Z",
+    "error": "HTTP 403"
+  },
+  {
+    "slug": "bressser",
+    "platform": "kick",
+    "live": false,
+    "viewers": 0,
+    "thumb": null,
+    "updatedAt": "2026-04-01T06:07:31.562Z",
     "error": "HTTP 403"
   },
   {
@@ -176,7 +176,7 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:07.644Z",
+    "updatedAt": "2026-04-01T06:07:31.567Z",
     "error": "HTTP 403"
   },
   {
@@ -185,7 +185,7 @@
     "live": false,
     "viewers": 0,
     "thumb": null,
-    "updatedAt": "2026-04-01T04:20:09.455Z",
+    "updatedAt": "2026-04-01T06:07:33.384Z",
     "error": "HTTP 403"
   }
 ]
